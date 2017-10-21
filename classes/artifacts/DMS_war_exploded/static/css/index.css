@@ -1,0 +1,30 @@
+main.index{
+  margin-right: 0;
+}
+#message,#download{
+  height: inherit;
+  width: 35%;
+  float: left;
+}
+#contactInfo{
+  height: inherit;
+  width: 30%;
+  float: left;
+}
+main.index div ul{
+  height: 300px;
+  list-style: none;
+  margin: 70px 50px;
+}
+main.index div ul li{
+  height: 40px;
+}
+a.title{
+  line-height: 60px;
+  font-size: 20px;
+  text-decoration: none;
+}
+/*鐧婚檰妗�*/
+
+
+

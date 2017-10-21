@@ -1,0 +1,156 @@
+nav{
+  height: 15px;
+  /*background: #ccc;*/
+}
+main{
+  /*width: 100%;*/
+  top: 0;
+  margin:0 auto;
+  height:550px;
+  /*background-color: blue;*/
+}
+main.roomInfo{
+  height: 700px;
+}
+main.stu{
+  height: 700px;
+}
+aside{
+  display: inline-block;
+  /*position: relative;*/
+  /*background-color: #99ccff;*/
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 440px;
+  float: left;
+}
+aside ul{
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  padding: 0;
+  /*top: 100%;*/
+  margin-top:50px;
+}
+aside ul li{
+  height: 50px;
+  /*position: relative;*/
+}
+aside ul li a{
+  line-height:50px;
+}
+aside ul li:hover{
+  border-right:2px solid blue;
+}
+.main{
+  width: 80%;
+  height: inherit;
+  background-color: #ccc;
+  display: block;
+  padding: 0;
+}
+.main p{
+  margin:0;
+  font-size:40px;
+  font-weight: 900;
+  line-height: 200px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+main div.main{
+  background-color: white;
+  height: inherit;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+main div.main table{
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+}
+div.main th{
+  background-color:#50C2FF;
+  background:-o-linear-gradient(90deg, #50C2FF, #9bdcfe);
+  background:-moz-linear-gradient( center top, #50C2FF 5%, #9bdcfe 100% );
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #50C2FF), color-stop(1, #9bdcfe) );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#50C2FF', endColorstr='#9bdcfe');
+  color:gray;
+}
+
+div.main (table,th,td)
+{
+  font-size:17px;
+  text-align:center;
+  padding:4px;
+  border:1px solid #efefef;
+  border-collapse:collapse;
+
+}
+div.main tr{
+  height: 40px;
+  line-height: 40px;
+}
+div.main tr:nth-child(odd){
+  background-color:#c4eafe;
+  background:-o-linear-gradient(90deg, #c4eafe, #f3fafe);
+  background:-moz-linear-gradient( center top, #c4eafe 5%, #f3fafe 100% );
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c4eafe), color-stop(1, #f3fafe) );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4eafe', endColorstr='#f3fafe');
+}
+div.main tr:nth-child(even){
+  background-color:#fdfdfd;
+}
+.tab_footer{
+  width: 100%;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.message{
+  width: 25%;
+  text-align: right;
+  letter-spacing: 2px;
+  float: left;
+}
+.btn{
+  width: 95%;
+  text-align: right;
+  letter-spacing: 2px;
+}
+.hide{
+
+  display: none;
+}
+table td input[type="button"]{
+  border: none;
+  width: 100%;
+  height:40px;
+  padding: 0;
+}
+input[type="button"].Ssave{
+  background-color: yellow;
+  float: right;
+}
+.down{
+  position: relative;
+  text-align: right;
+  margin-top: 20px;
+}
+#down_content{
+  display: none;
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+}
+.resetPword td{
+background-color:white;
+}
+.room tr{
+  height:
+}
+.room td{
+  width: 50px;
+  height: 150px;
+}
